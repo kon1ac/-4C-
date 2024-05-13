@@ -1,0 +1,18 @@
+﻿<Window x:Class="MagicPartik4C_.TakeTestForm"
+xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Take Test" Height="350" Width="500">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Margin="10">
+            <TextBlock Name="titleLabel" FontWeight="Bold" FontSize="18"/>
+            <TextBlock Name="descriptionLabel" Margin="0,10,0,20"/>
+            <Button Name="option1Button" Content="Option 1" Margin="0,0,0,10" Click="OptionButton_Click"/>
+            <Button Name="option2Button" Content="Option 2" Margin="0,0,0,10" Click="OptionButton_Click"/>
+            <Button Name="option3Button" Content="Option 3" Click="OptionButton_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
